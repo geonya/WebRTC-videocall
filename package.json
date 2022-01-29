@@ -1,0 +1,32 @@
+{
+	"name": "webrtc-videocall-zoomclone",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"dev": "nodemon"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/geonya/webrtc-videocall-zoomclone.git"
+	},
+	"keywords": [
+		"webrtc"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/cli": "^7.16.8",
+		"@babel/core": "^7.16.12",
+		"@babel/node": "^7.16.8",
+		"@babel/preset-env": "^7.16.11",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"@socket.io/admin-ui": "^0.2.0",
+		"dotenv": "^14.3.2",
+		"express": "^4.17.2",
+		"localtunnel": "^2.0.2",
+		"pug": "^3.0.2",
+		"socket.io": "^4.4.1"
+	}
+}
